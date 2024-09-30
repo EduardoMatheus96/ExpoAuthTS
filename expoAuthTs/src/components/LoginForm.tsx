@@ -27,7 +27,7 @@ const LoginForm = () => {
                 secureTextEntry
             />
             {errors.password && <Text style={styles.errorText}>{errors.password}</Text>}
-            <Button title="Entrar" onPress={handleSubmit} disabled={!isValid}/>
+            <Button title="Entrar" onPress={handleSubmit} disabled={isValid}/>
         </View>
     );
 }
