@@ -1,9 +1,5 @@
 import { useCallback, useState } from "react";
-
-interface LoginForm {
-    email: string;
-    password: string;
-}
+import { LoginForm } from "../types/interfaces";
 
 interface UseLoginForm {
     form: LoginForm;

@@ -1,10 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useEffect, useState } from "react";
-
-interface UserData {
-    email: string;
-    lastLogin: string;
-}
+import { UserData } from "../types/interfaces";
 
 export const useUserData = () => {
     const [userData, setUserData] = useState<UserData | null>(null);
