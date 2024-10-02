@@ -21,6 +21,24 @@ Bem-vindo ao ExpoAuthTS! Este é um projeto de autenticação de usuário utiliz
 * React Native: framework para desenvolvimento de aplicações móveis
 * React Navigation: biblioteca para navegação entre telas
 
+## Bibliotecas Utilizadas
+Este projeto utiliza as seguintes bibliotecas principais:
+
+react-navigation: Para gerenciamento de rotas
+ -npm install @react-navigation/native @react-navigation/stack
+
+react-native-screens e react-native-safe-area-context: Dependências do react-navigation
+-npm install react-native-screens react-native-safe-area-context
+
+@react-native-async-storage/async-storage: Para persistência de dados
+ -npm install @react-native-async-storage/async-storage
+
+react-native-gesture-handler: Necessário para o react-navigation
+ -npm install react-native-gesture-handler
+
+Formik e Yup
+ -npm install formik yup
+
 ## Estrutura do Projeto
 -------------------------
 
